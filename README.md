@@ -1,4 +1,6 @@
 
+Test
+
 # laravel-chartjs - Chart.js v2 wrapper for Laravel 5.x
 
 Simple package to facilitate and automate the use of charts in Laravel 5.x
