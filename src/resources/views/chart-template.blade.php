@@ -1,7 +1,7 @@
 <canvas id="{!! $element !!}" width="{!! $size['width'] !!}" height="{!! $size['height'] !!}">
 <script>
-    document.addEventListener("DOMContentLoaded", function(event) {
-        (function() {
+
+        
     		"use strict";
             let ctx = document.getElementById("{!! $element !!}");
             window.{!! $element !!} = new Chart(ctx, {
@@ -15,8 +15,8 @@
                 @elseif(!empty($options))
                     options: {!! json_encode($options) !!}
                 @endif
-            });
+            
         })();
-    });
+    
 </script>
 </canvas>
